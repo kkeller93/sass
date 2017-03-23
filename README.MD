@@ -1,5 +1,7 @@
 Your repository must include a readme.md that answers the following questions regarding your subject. No need to write a book!
+
 •    Why did you choose this subject?
+
 First, we debated between Sass and Three.js. We thought Three.js was cool to create some 3D objects. After careful consideration we decided it may be too complicated and probably need a lot more than 50 lines of code and decided to do Sass which seemed much more simple after researching it.
 
 
