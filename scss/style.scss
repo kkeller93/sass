@@ -28,7 +28,7 @@
   @for $i from 3 through 12 {
     &:nth-child(#{$i}) {
       animation: flip 2.5s infinite ease-in-out;
-      animation-delay: 0.5s;
+      animation-delay: (2)*logarithm(30*$i) * .5s;
     }
   }
 }

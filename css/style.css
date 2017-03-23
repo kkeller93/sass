@@ -5,7 +5,8 @@
   margin: 100px auto;
   perspective: 160px;
   transform-style: preserve-3d;
-  -webkit-backface-visibility: visible; }
+  -webkit-backface-visibility: visible;
+}
 
 .container .paper {
   position: absolute;
@@ -19,46 +20,59 @@
   background: #fff;
   border: 5px solid #218EED;
   border-left: 0;
-  transform-origin: 0% 50%; }
+  transform-origin: 0% 50%;
+}
 
 .container .paper:nth-child(2) {
-  transform: rotateY(180deg); }
+  transform: rotateY(180deg);
+}
 
 .container .paper:nth-child(3) {
   animation: flip 2.5s infinite ease-in-out;
-  animation-delay: 0.5s; }
+  animation-delay: 4.49981s;
+}
 .container .paper:nth-child(4) {
   animation: flip 2.5s infinite ease-in-out;
-  animation-delay: 0.5s; }
+  animation-delay: 4.78749s;
+}
 .container .paper:nth-child(5) {
   animation: flip 2.5s infinite ease-in-out;
-  animation-delay: 0.5s; }
+  animation-delay: 5.01064s;
+}
 .container .paper:nth-child(6) {
   animation: flip 2.5s infinite ease-in-out;
-  animation-delay: 0.5s; }
+  animation-delay: 5.19296s;
+}
 .container .paper:nth-child(7) {
   animation: flip 2.5s infinite ease-in-out;
-  animation-delay: 0.5s; }
+  animation-delay: 5.34711s;
+}
 .container .paper:nth-child(8) {
   animation: flip 2.5s infinite ease-in-out;
-  animation-delay: 0.5s; }
+  animation-delay: 5.48064s;
+}
 .container .paper:nth-child(9) {
   animation: flip 2.5s infinite ease-in-out;
-  animation-delay: 0.5s; }
+  animation-delay: 5.59842s;
+}
 .container .paper:nth-child(10) {
   animation: flip 2.5s infinite ease-in-out;
-  animation-delay: 0.5s; }
+  animation-delay: 5.70378s;
+}
 .container .paper:nth-child(11) {
   animation: flip 2.5s infinite ease-in-out;
-  animation-delay: 0.5s; }
+  animation-delay: 5.79909s;
+}
 .container .paper:nth-child(12) {
   animation: flip 2.5s infinite ease-in-out;
-  animation-delay: 0.5s; }
+  animation-delay: 5.8861s;
+}
 
 @keyframes flip {
   30% {
-    transform: rotateY(-180deg); }
+    transform: rotateY(-180deg);
+  }
   100% {
-    transform: rotateY(-180deg); } }
-
-/*# sourceMappingURL=style.css.map */
+    transform: rotateY(-180deg);
+  }
+}
